@@ -27,7 +27,7 @@ int main()
 			k++;
 		}
 
-		P *= (1 + S) / sqrt(S);
+		P *= (i + S) / sqrt(S);
 		
 		i++;
 	}
@@ -49,7 +49,7 @@ int main()
 			k++;
 		} while (k <= i);
 		
-		P *= (1 + S) / sqrt(S);
+		P *= (i + S) / sqrt(S);
 		
 		i++;
 	} while (i <= 10);
@@ -67,7 +67,7 @@ int main()
 			S += 1 / k;
 		}
 		
-		P *= (1 + S) / sqrt(S);
+		P *= (i + S) / sqrt(S);
 	}
 	
 	cout << P << endl;
@@ -83,7 +83,7 @@ int main()
 			S += 1 / k;
 		}
 		
-		P *= (1 + S) / sqrt(S);
+		P *= (i + S) / sqrt(S);
 	}
 	
 	cout << P << endl;
